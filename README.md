@@ -14,11 +14,11 @@ This repository deals with an analysis of ‘Appliances energy prediction’ usi
   - `python training.py`
   
 # Directory tree
-  ㄴAppliances-energy-prediction
-    ㄴEDA.ipynb
-    ㄴtraining.py
-    ㄴdata
-      ㄴenergydata_complete.csv
+  ㄴAppliances-energy-prediction  
+    ㄴEDA.ipynb  
+    ㄴtraining.py  
+    ㄴdata  
+      ㄴenergydata_complete.csv  
       
 # Requirements
 You need Python 3.5 or later to run ML-assignment2-2014143073.
