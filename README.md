@@ -4,5 +4,23 @@ This repository deals with an analysis of ‘Appliances energy prediction’ usi
 
 # Getting Started
 1. Unzip the 'ML-assignment2-2014143073.zip'
-2. install the required python packages
-- `pip install numpy --user`
+2. Install the required python packages
+  - `pip install numpy --user`
+  - `pip install pandas --user`
+  - `pip install datetime --user`
+  - `pip install scikit-learn`
+3. Execute the 'trainig.py' script on your shell
+  - `python training.py`
+  
+# Directory tree
+  ㄴML-assignment2-2014143073
+    ㄴEDA.ipynb
+    ㄴtraining.py
+    ㄴdata
+      ㄴenergydata_complete.csv
+      
+# Requirements
+You need Python 3.5 or later to run ML-assignment2-2014143073.
+
+For macOS or Windows, packages are available at
+https://www.python.org/getit/
