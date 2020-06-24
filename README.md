@@ -5,4 +5,4 @@ This repository deals with an analysis of ‘Appliances energy prediction’ usi
 # Getting Started
 1. Unzip the 'ML-assignment2-2014143073.zip'
 2. install the required python packages
-` pip install numpy --user
+`pip install numpy --user`
