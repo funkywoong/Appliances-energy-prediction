@@ -9,11 +9,12 @@ This repository deals with an analysis of ‘Appliances energy prediction’ usi
   - `pip install pandas --user`
   - `pip install datetime --user`
   - `pip install scikit-learn`
-3. Execute the 'trainig.py' script on your shell
+  - `pip install jupyter-notebook --user` (optional)
+3. Execute the 'trainig.py' script in a root directory on your shell
   - `python training.py`
   
 # Directory tree
-  ㄴML-assignment2-2014143073
+  ㄴAppliances-energy-prediction
     ㄴEDA.ipynb
     ㄴtraining.py
     ㄴdata
@@ -24,3 +25,6 @@ You need Python 3.5 or later to run ML-assignment2-2014143073.
 
 For macOS or Windows, packages are available at
 https://www.python.org/getit/
+
+# Addition
+You can get the performance of given model to just execute 'training.py'. But if you want to let you know about the development process and the data exploration, you have to launch the jupyter notebook IDE, and take a look 'EDA.ipynb' file.
