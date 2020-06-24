@@ -1,22 +1,12 @@
 import numpy as np
 import pandas as pd 
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
 import time, warnings, os
 
 from datetime import date
 from sklearn import preprocessing, model_selection, metrics
 from sklearn.model_selection import train_test_split
-from sklearn.model_selection import GridSearchCV
-from sklearn.linear_model import Ridge, Lasso
-from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor, ExtraTreesRegressor
-from sklearn.neural_network import MLPRegressor
-from sklearn import neighbors
-from sklearn.svm import SVR
-from sklearn.preprocessing import MinMaxScaler, Normalizer, RobustScaler
-import xgboost as xgb
+from sklearn.ensemble import ExtraTreesRegressor
+from sklearn.preprocessing import MinMaxScaler
 
 # Wrap the features in list objects
 col_temp = ['T_kitchen', 'T_living', 'T_Laundry', 'T_office', 'T_bath', 
